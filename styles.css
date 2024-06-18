@@ -152,7 +152,7 @@ p {
 }
 
 #feature img {
-    width: 150px;
+    width: 100%;
     height: 100px;
     margin-bottom: 5px;
 }
@@ -202,4 +202,88 @@ p {
 
 .support {
     background-color: #96D4D3;
+}
+
+#product1 {
+    text-align: center;
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pro-container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.pro-container a i {
+    font-size: 20px;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #1A1A6D;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.10);
+}
+
+#product1 .pro img {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#product1 .pro .description {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .description span {
+    color: #1A1A6D;
+    font-size: 12px;
+}
+
+.description h5 {
+    padding-top: 7px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.description i {
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+.description h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1A1A6D;
+}
+
+#product1 .pro .shopping-cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #d7c2a8;
+    color: #333333;
+    border: 1px solid #FF8C00;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
 }
