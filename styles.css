@@ -92,6 +92,14 @@ button.transparent {
     left: 0;
 }
 
+#mobile {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
 #navbar {
     display: flex;
     justify-content: center;
@@ -130,11 +138,10 @@ button.transparent {
 
 /* Home Page */
 #intro {
-    background-image: url("img/drummer_landing");
+    background-image: url("img/intro.jpg");
     height: 90vh;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: top 25% right 5%;
     padding: 0 80px;
     display: flex;
@@ -143,12 +150,22 @@ button.transparent {
     justify-content: center;
 }
 
-#intro h4 {
+#intro h4, #intro p {
     padding-bottom: 15px ;
+    color: #fff;
+}
+
+#intro h2 {
+    color: #000000;
+    background-color: #fff;
+    padding: 5px 5px 5px 0;
+    margin-bottom: 20px;
 }
 
 #intro h1 {
     color: #1A1A6D;
+    background-color: #FF8C00;
+    padding: 5px 5px 5px 0;
 }
 
 #intro button {
@@ -161,6 +178,7 @@ button.transparent {
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
+    color: #060501;
 }
 
 #intro button:hover{
@@ -497,4 +515,155 @@ button.transparent {
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+.col .logo {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.col img {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+footer .soc-media {
+    margin-top: 20px;
+}
+
+footer .soc-media i {
+    color: #1A1A6D;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install img {
+    margin: 10px 0 15px;
+}
+
+footer .soc-media i:hover, footer a:hover {
+    color: #FF8C00;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+/* Media Query */
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #000000;
+        color: #ffff;
+        box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar.active {
+        right: 0px;
+    }
+    #navbar li {
+        margin-bottom: 25px;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+    #mobile i {
+        color: #000000;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+        color: #ffff;
+    }
+    #lg-bag {
+        display: none;
+    }
+    #intro {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #feature {
+        justify-content: center;
+    }
+    #feature .feature-box {
+        margin: 15px 15px;
+    }
+    .pro-container {
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px;
+    }
+    #banner {
+        height: 20vh;
+    }
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #banner3 .banner-box {
+        width: 28%;
+    }
+    #banner3 .banner-box h2 {
+        font-weight: 700;
+        font-size: 15px;
+    }
+    #banner3 .banner-box h3 {
+        text-align: center;
+    }
 }
