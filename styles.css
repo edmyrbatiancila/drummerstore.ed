@@ -52,7 +52,7 @@ p {
 button.normal {
     font-size: 20px;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 10px 20px;
     color: #FFFFFF;
     background-color: #141414;
     border-radius: 4px;
@@ -372,7 +372,7 @@ button.transparent {
     align-items: flex-end;
 }
 
-.banner-box h4 {
+.banner-box h4, #banner3 .banner-box h2 {
     color: #F5F5F5;
     font-size: 20px;
     font-weight: 300;
@@ -380,14 +380,14 @@ button.transparent {
     padding: 10px;
 }
 
-#box2 {
-    color: #314D59;
+.banner-box h2 {
+    color: #FF8C00;
+    font-size: 28px;
     font-weight: 800;
 }
 
-#sm-banner .banner-box h2 {
-    color: #FF8C00;
-    font-size: 28px;
+#box2 {
+    color: #314D59;
     font-weight: 800;
 }
 
@@ -401,6 +401,13 @@ button.transparent {
 #sm-banner .banner-box:hover button {
     background-color: #000000;
     border: 1px solid #FF8C00;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
 }
 
 #banner3 .banner-box {
@@ -417,14 +424,77 @@ button.transparent {
     margin-bottom: 20px;
 }
 
+#banner3 .weekend-sale {
+    background-image: url("img/banner3_2.jpg");
+}
+
+#banner3 .birthday-sale {
+    background-image: url("img/banner3_3.jpg");
+}
+
 #banner3 .banner-box h2 {
     color: #FFFFFF;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 #banner3 .banner-box h3 {
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 900;
     font-size: 15px;
+    margin-top: 15px;
+    background-color: #ffff;
+    padding: 5px;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/newsletter_banner.png");
+    background-size: cover;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px;
+}
+
+#newsletter span {
+    color: #FF8C00;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #000000;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
