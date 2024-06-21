@@ -596,191 +596,6 @@ footer .soc-media i:hover, footer a:hover {
     padding-bottom: 30px;
 }
 
-
-/* Media Query - Tablet Device */
-@media (max-width: 799px) {
-    .section-p1 {
-        padding: 40px 40px;
-    }
-    #navbar {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: fixed;
-        top: 0;
-        right: -300px;
-        height: 100vh;
-        width: 300px;
-        background-color: #000000;
-        color: #ffff;
-        box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
-        padding: 80px 0 0 10px;
-        transition: 0.3s;
-    }
-    #navbar.active {
-        right: 0px;
-    }
-    #navbar li {
-        margin-bottom: 25px;
-    }
-    #mobile {
-        display: flex;
-        align-items: center;
-    }
-    #mobile i {
-        color: #000000;
-        font-size: 24px;
-        padding-left: 20px;
-    }
-    #close {
-        display: initial;
-        position: absolute;
-        top: 30px;
-        left: 30px;
-        font-size: 24px;
-        color: #ffff;
-    }
-    #lg-bag {
-        display: none;
-    }
-    #intro {
-        height: 70vh;
-        padding: 0 80px;
-        background-position: top 30% right 30%;
-    }
-    #feature {
-        justify-content: center;
-    }
-    #feature .feature-box {
-        margin: 15px 15px;
-    }
-    .pro-container {
-        justify-content: center;
-    }
-    #product1 .pro {
-        margin: 15px;
-    }
-    #banner {
-        height: 20vh;
-    }
-    #sm-banner .banner-box {
-        min-width: 100%;
-        height: 30vh
-    }
-    #banner3 {
-        padding: 0 40px;
-    }
-    #banner3 .banner-box {
-        width: 28%;
-    }
-    #banner3 .banner-box h2 {
-        font-weight: 700;
-        font-size: 15px;
-    }
-    #banner3 .banner-box h3 {
-        text-align: center;
-    }
-}
-
-/* Media Query - Mobile Device */
-@media (max-width: 477px) {
-    .section-p1 {
-        padding: 20px;
-    }
-    #header {
-        padding: 10px 30px;
-        width: 420px;
-    }
-    #intro {
-        padding: 10px 20px;
-        background-position: 100%;
-        height: 100%;
-        width: 420px;
-        align-items: center;
-    }
-    h1 {
-        font-size: 38px;
-    }
-    h2 {
-        font-size: 32px;
-    }
-    #intro h2 {
-        background-color: transparent;
-        color: #fff;
-    }
-    #intro h4, #intro h2 {
-        font-size: 14px;
-        text-align: center;
-        padding: 0;
-    }
-    #intro h1 {
-        font-size: 28px;
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-        text-align: center;
-        height: 100%;
-        width: 100%;
-        background-color: transparent;
-        color: #FF8C00;
-    }
-    #intro button {
-        color: #FF8C00;
-        background-color: #1A1A6D;
-        background-image: none;
-        border-radius: 20px;
-        font-size: 15px;
-        padding: 10px 30px;
-    }
-    #feature {
-        justify-content: space-between;
-    }
-    #feature .feature-box {
-        width: 155px;
-        margin: 0 0 15px 0;
-    }
-    #product1 .pro-container {
-        width: 380px
-    }
-    #product1 .pro {
-        width: 100%;
-    }
-    #banner {
-        height: 40vh;
-        width: 420px;
-    }
-    #sm-banner {
-        justify-content: center;
-        width: 420px;
-    }
-    #sm-banner .banner-box {
-        height: 40vh;
-        width: 100%;
-    }
-    #sm-banner .banner-box2 {
-        margin-top: 20px;
-    }
-    #banner3 {
-        padding: 0 20px;
-        width: 420px;
-    }
-    #banner3 .banner-box {
-        width: 100%;
-    }
-    #newsletter {
-        width: 420px;
-        padding: 40px 20px;
-        height: 40vh;
-    }
-    #newsletter .form {
-        width: 100%;
-    }
-    footer .copyright {
-        text-align: start;
-    }
-}
-
 /* Shop Page */
 #page-shop-header {
     background-image: url("img/drumshop/shopbanner.png");
@@ -835,6 +650,11 @@ footer .soc-media i:hover, footer a:hover {
 }
 
 /* Single Product */
+#prod_details {
+    display: flex;
+    margin-top: 20px;
+}
+
 #prod_details .single-prod-image {
     width: 40%;
     margin-right: 50px;
@@ -848,4 +668,300 @@ footer .soc-media i:hover, footer a:hover {
 .small-img-col {
     flex-basis: 24%;
     cursor: pointer;
+}
+
+#prod_details .single-prod-details {
+    width: 50%;
+    padding-top: 30px;
+}
+
+.single-prod-details .product_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #333333;
+}
+
+#prod_details .single-prod-details h4 {
+    padding: 40px 0px 20px 0px;
+}
+
+#prod_details .single-prod-details h2 {
+    font-size: 26px;
+    color: #1A1A6D;
+}
+
+#prod_details .single-prod-details h6 {
+    font-size: 15px;
+    color: #FF8C00;
+}
+
+#prod_details .single-prod-details select {
+    display: block;
+    padding: 5px 10px;
+    margin: 10px 0;
+}
+
+#prod_details .single-prod-details select:focus {
+    outline: none;
+}
+
+#prod_details .single-prod-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#prod_details .single-prod-details input:focus {
+    outline: none;
+}
+
+.single-prod-details .quantity {
+    padding-top: 10px;
+}
+
+
+/* Media Query - Tablet Device */
+@media (max-width: 799px) {
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #000000;
+        color: #ffff;
+        box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #000000;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+        color: #ffff;
+    }
+
+    #lg-bag {
+        display: none;
+    }
+
+    #intro {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .feature-box {
+        margin: 15px 15px;
+    }
+
+    .pro-container {
+        justify-content: center;
+    }
+
+    #product1 .pro {
+        margin: 15px;
+    }
+
+    #banner {
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh
+    }
+
+    #banner3 {
+        padding: 0 40px;
+    }
+
+    #banner3 .banner-box {
+        width: 28%;
+    }
+
+    #banner3 .banner-box h2 {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    #banner3 .banner-box h3 {
+        text-align: center;
+    }
+}
+
+/* Media Query - Mobile Device */
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 10px 30px;
+        width: 420px;
+    }
+
+    #intro {
+        padding: 10px 20px;
+        background-position: 100%;
+        height: 100%;
+        width: 420px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    #intro h2 {
+        background-color: transparent;
+        color: #fff;
+    }
+
+    #intro h4,
+    #intro h2 {
+        font-size: 14px;
+        text-align: center;
+        padding: 0;
+    }
+
+    #intro h1 {
+        font-size: 28px;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        color: #FF8C00;
+    }
+
+    #intro button {
+        color: #FF8C00;
+        background-color: #1A1A6D;
+        background-image: none;
+        border-radius: 20px;
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+
+    #feature {
+        justify-content: space-between;
+    }
+
+    #feature .feature-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro-container {
+        width: 380px
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+        width: 420px;
+    }
+
+    #sm-banner {
+        justify-content: center;
+        width: 420px;
+    }
+
+    #sm-banner .banner-box {
+        height: 40vh;
+        width: 100%;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+        width: 420px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter {
+        width: 420px;
+        padding: 40px 20px;
+        height: 40vh;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    footer .copyright {
+        text-align: start;
+    }
+    /* Single Product */
+    #prod_details {
+        display: flex;
+        flex-direction: column;
+    }
+    #prod_details .single-prod-image {
+        width: 380px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #prod_details .single-prod-details {
+        width: 380px;
+        text-align: justify;
+    }
 }
