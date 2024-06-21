@@ -724,13 +724,82 @@ footer .soc-media i:hover, footer a:hover {
     padding-top: 10px;
 }
 
+/* Blog Page */
+#page-shop-header.blog-header {
+    background-image: url("img/blog_banner.jpg");
+}
+
+#blog {
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+#blog .blog-image {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog .blog-details {
+    width: 50%;
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    font-size: 11px;
+    color: inherit;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+#blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+    transition: 0.3s;
+}
+
+#blog .blog-details a:hover {
+    color: #FF8C00;
+}
+
+#blog .blog-details a:hover::after {
+    background-color: #FF8C00;
+}
+
+#blog .blog-box h1 {
+    position: absolute;
+    top: -68px;
+    left: 150px;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
+
 
 /* Media Query - Tablet Device */
 @media (max-width: 799px) {
     .section-p1 {
         padding: 40px 40px;
     }
-
     #navbar {
         display: flex;
         flex-direction: column;
@@ -747,26 +816,21 @@ footer .soc-media i:hover, footer a:hover {
         padding: 80px 0 0 10px;
         transition: 0.3s;
     }
-
     #navbar.active {
         right: 0px;
     }
-
     #navbar li {
         margin-bottom: 25px;
     }
-
     #mobile {
         display: flex;
         align-items: center;
     }
-
     #mobile i {
         color: #000000;
         font-size: 24px;
         padding-left: 20px;
     }
-
     #close {
         display: initial;
         position: absolute;
@@ -775,57 +839,60 @@ footer .soc-media i:hover, footer a:hover {
         font-size: 24px;
         color: #ffff;
     }
-
     #lg-bag {
         display: none;
     }
-
     #intro {
         height: 70vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
-
     #feature {
         justify-content: center;
     }
-
     #feature .feature-box {
         margin: 15px 15px;
     }
-
     .pro-container {
         justify-content: center;
     }
-
     #product1 .pro {
         margin: 15px;
     }
-
     #banner {
         height: 20vh;
     }
-
     #sm-banner .banner-box {
         min-width: 100%;
         height: 30vh
     }
-
     #banner3 {
         padding: 0 40px;
     }
-
     #banner3 .banner-box {
         width: 28%;
     }
-
     #banner3 .banner-box h2 {
         font-weight: 700;
         font-size: 15px;
     }
-
     #banner3 .banner-box h3 {
         text-align: center;
+    }
+    /* Blog Page */
+    #blog {
+        padding: 150px 50px 0 50px;
+    }
+    #blog .blog-box {
+        text-align: justify;
+    }
+    #blog .blog-image {
+        width: 500px;
+    }
+    #blog .blog-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 }
 
@@ -947,13 +1014,16 @@ footer .soc-media i:hover, footer a:hover {
     footer .copyright {
         text-align: start;
     }
+    #page-shop-header {
+        width: 420px;
+    }
     /* Single Product */
     #prod_details {
         display: flex;
         flex-direction: column;
     }
     #prod_details .single-prod-image {
-        width: 380px;
+        width: 360px;
         margin-right: 0px;
         display: flex;
         flex-direction: column;
@@ -963,5 +1033,28 @@ footer .soc-media i:hover, footer a:hover {
     #prod_details .single-prod-details {
         width: 380px;
         text-align: justify;
+    }
+    /* Blog Page */
+    #page-shop-header h2 {
+        font-size: 20px;
+    }
+    #page-shop-header h2 {
+        font-size: 12px;
+    }
+    #blog {
+        display: flex;
+        flex-direction: column;
+        padding: 150px 0px 0px 0px;
+    }
+    #blog .blog-box {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 90px;
+    }
+    #blog .blog-image {
+        width: 420px;
     }
 }
