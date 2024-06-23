@@ -807,6 +807,13 @@ footer .soc-media i:hover, footer a:hover {
     font-weight: 800;
 }
 
+#about-head {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    text-align: justify;
+}
+
 #about-head img {
     width: 50%;
 }
