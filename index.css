@@ -1010,10 +1010,6 @@ footer .soc-media i:hover, footer a:hover {
     #newsletter .form {
         width: 100%;
     }
-
-    footer .copyright {
-        text-align: start;
-    }
     #page-shop-header {
         width: 420px;
     }
@@ -1032,14 +1028,13 @@ footer .soc-media i:hover, footer a:hover {
     }
     #prod_details .single-prod-details {
         width: 380px;
-        text-align: justify;
     }
     /* Blog Page */
     #page-shop-header h2 {
         font-size: 20px;
     }
     #page-shop-header h2 {
-        font-size: 12px;
+        font-size: 25px;
     }
     #blog {
         display: flex;
@@ -1048,13 +1043,28 @@ footer .soc-media i:hover, footer a:hover {
     }
     #blog .blog-box {
         display: flex;
-        width: 100%;
-        align-items: flex-start;
+        width: 380px;
+        align-items: center;
         flex-direction: column;
-        position: relative;
-        padding-bottom: 90px;
+        padding-top: 20px;
     }
     #blog .blog-image {
-        width: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
     }
+    #blog .blog-details {
+        width: 100%;
+        margin: 20px 0px 0px 30px;
+    }
+    #blog .blog-details h4 {
+        font-size: 25px;
+    }
+    #blog .blog-details p {
+        font-size: 18px;
+    }
+    #blog .blog-details a {
+            font-size: 15px;
+        }
 }
