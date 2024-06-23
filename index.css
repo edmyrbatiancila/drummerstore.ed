@@ -795,6 +795,24 @@ footer .soc-media i:hover, footer a:hover {
 }
 
 
+/* About Page */
+#page-shop-header.about-header {
+    background-image: url("img/about_banner.webp");
+}
+
+#contactus {
+    background-color: #FF8C00;
+    color: #1A1A6D;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#about-head img {
+    width: 50%;
+}
+
+
+
 /* Media Query - Tablet Device */
 @media (max-width: 799px) {
     .section-p1 {
