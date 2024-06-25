@@ -835,6 +835,76 @@ footer .soc-media i:hover, footer a:hover {
 }
 
 
+/* Contact Page */
+#contact_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact_details .details {
+    width: 40%;
+}
+
+#contact_details .details span, #form-contact form span {
+    font-size: 12px;
+}
+
+#contact_details .details h2, #form-contact form h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact_details .details h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.details div li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.details div li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+.details div li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .google-map {
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .google-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#form-contact form {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-contact form input, #form-contact form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #1A1A6D;
+}
+
+
+
 
 /* Media Query - Tablet Device */
 @media (max-width: 799px) {
