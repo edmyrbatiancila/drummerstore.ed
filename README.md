@@ -17,5 +17,3 @@
 <hr>
 <h2>Status of this Project:</h2>
 <p>Currently In progress...</p>
-
-
