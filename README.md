@@ -8,12 +8,11 @@
   <li>Done to add Footer section</li>
   <li>Done the Landing Page</li>
   <li>Done to create the shop.html page</li>
+  <li>Done to create Blog, About, and Contact Page. Also made it responsive for all device's sizes.</li>
 </ol>
 <h2>What should I do next?</h2>
 <ol>
-  <li>Need to add some images for the products with details on it.</li>
-  <li>Create some HTML pages for each nav menus.</li>
-  <li>Creating the single product details in the page</li>
+  <li>Make a backend server side where in items will be stored in a database.</li>
 </ol>
 <hr>
 <h2>Status of this Project:</h2>
