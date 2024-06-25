@@ -818,6 +818,22 @@ footer .soc-media i:hover, footer a:hover {
     width: 50%;
 }
 
+#about-video {
+    text-align: center;
+}
+
+#about-video .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+
+#about-video .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
 
 
 /* Media Query - Tablet Device */
@@ -1092,4 +1108,35 @@ footer .soc-media i:hover, footer a:hover {
     #blog .blog-details a {
             font-size: 15px;
         }
+    
+    /* About Page */
+    #about-head {
+        flex-direction: column;
+        text-align: justify;
+        width: 420px;
+        margin-top: 50px;
+    }
+    #about-head img {
+        width: 100%;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    .about-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-desc h2 {
+        font-size: 35px;
+    }
+    #about-video {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+    }
+    #about-video .video {
+        width: 90%;
+    }
+    
 }
