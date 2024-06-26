@@ -1,0 +1,37 @@
+#intro h4, #intro p {
+    padding-bottom: 15px ;
+    color: #fff;
+}
+
+#intro h2 {
+    color: #000000;
+    background-color: #fff;
+    padding: 5px 5px 5px 0;
+    margin-bottom: 20px;
+}
+
+#intro h1 {
+    color: #1A1A6D;
+    background-color: #FF8C00;
+    padding: 5px 5px 5px 0;
+}
+
+#intro button {
+    background-image: url("/drumstick.png");
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    background-size: contain;
+    padding: 14px 80px 12px 65px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #060501;
+}
+
+#intro button:hover{
+    color: #FF8C00;
+    background-color: #1A1A6D;
+    background-image: none;
+    border-radius: 20px;
+}
