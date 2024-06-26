@@ -34,14 +34,60 @@
     list-style: none;
     padding: 0 20px;
     position: relative;
+}
+
+#navbar li span {
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
-    transition: 0.3s ease;
+}
+
+#navbar li span:hover, .navbar-right span i:hover, .active {
+    border-bottom: 2px solid #FF8C00;
+    padding-bottom: 2px;
+    color: #FF8C00;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-right .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: #1A1A6D;
+    border-radius: 5px;
+    top: 8px;
+    right: 119px;
+}
+
+.navbar-right button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background-color: #000000;
+    color: #fff;
     cursor: pointer;
 }
 
-#navbar li:hover {
-    border-bottom: 2px solid #FF8C00;
-    padding-bottom: 5px;
-    color: #FF8C00;
+.navbar-right button:hover {
+    background-color: #FF8C00;
+    color: #000000;
 }
+
+#lg-bag {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.navbar-right span i, .navbar-right button, #navbar li span {
+    transition: 0.3s ease;
+}
+
