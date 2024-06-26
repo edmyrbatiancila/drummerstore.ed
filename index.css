@@ -798,6 +798,7 @@ footer .soc-media i:hover, footer a:hover {
 /* About Page */
 #page-shop-header.about-header {
     background-image: url("img/about_banner.webp");
+    background-position: center;
 }
 
 #contactus {
@@ -836,6 +837,11 @@ footer .soc-media i:hover, footer a:hover {
 
 
 /* Contact Page */
+#page-shop-header.contact-header {
+    background-image: url("img/contact_banner.jpg");
+    background-position: center;
+}
+
 #contact_details {
     display: flex;
     align-items: center;
@@ -940,6 +946,11 @@ footer .soc-media i:hover, footer a:hover {
 
 
 /* Cart Page */
+#page-shop-header.cart-header {
+    background-image: url("img/cart_banner.jpg");
+    background-position: center;
+}
+
 #cart {
     overflow-x: auto;
 }
