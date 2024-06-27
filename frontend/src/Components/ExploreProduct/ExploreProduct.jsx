@@ -1,7 +1,10 @@
 import './ExploreProduct.css';
 import { product_list } from '../../assets/assets';
 
-const ExploreProduct = () => {
+const ExploreProduct = ({category, setCategory}) => {
+
+
+
   return (
     <section className='explore-product section-p1' id='explore-product'>
         <h1>Explore our products</h1>
@@ -9,13 +12,14 @@ const ExploreProduct = () => {
         <div className='explore-product-categ'>
           {product_list.map((item, index) => {
             return (
-              <div key={index} className='explore-product-list-item'>
-                  <img src={item.product_image} alt="Picture of category products" />
+              <div onClick={() => setCategory(prev => prev === item.product_name ? "All" : item.product_name)} key={index} className='explore-product-list-item'>
+                  <img className={category === item.product_name ? "active" : ""} src={item.product_image} alt="Picture of category products" />
                   <p>{item.product_name}</p>
               </div>
             )
           })}
         </div>
+        <hr />
     </section>
   )
 }

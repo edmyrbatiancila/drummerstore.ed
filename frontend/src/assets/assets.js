@@ -173,3 +173,150 @@ export const product_list = [
         product_image: stands
     },
 ];
+
+export const product_items = [
+    {
+        _id: "1",
+        brand: "DW",
+        name: "Collectors Rare Exotic African Chen Chen made in 2007",
+        image: productPart1,
+        price: "₱394,974.11",
+        category: "Full Acoustic Kits",
+        description: "DW Drums have been producing iconic drum kits since being founded in 1972 in Santa Monica, California - This gorgeous collectors series kit is no different to the usual expectation. The most popular wood for drum making - Maple is a hardwood that produces maximum resonance, projection and attack."
+    },
+    {
+        _id: "2",
+        brand: "DW",
+        name: "Dw 5000 Ad4 (02/12)",
+        image: productPart2,
+        price: "₱17,117.94",
+        category: "Pedals",
+        description: "The DW 5000 AD4 Accelerator Single Bass Drum Pedal continues the legacy of one of the most beloved kick pedals ever produced with a triumvirate of features like a Tri-Pivot Toe Clamp for ultimate placement, textured rubber grip pad and base plate for improved control, and ultra-fast Accelerator Cam Drive for a pinpoint playing without sacrificing speed. A favorite of players ranging from Aaron Spears to Max Weinberg, this is one of those pieces of equipment every drummer should own at some point in their career."
+    },
+    {
+        _id: "3",
+        brand: "Milestone",
+        name: "Founder's Model Fiberglass Composite Snare Drum 14x6.5 10-Lug Silver Sparkle",
+        image: productPart3,
+        price: "₱48,846.37",
+        category: "Snare",
+        description: "Ronn's drums and accessories are some of the best in the business, and as of 2022, Ronn has taken over manufacturing and distributing yet another Canadian brand: Milestone Percussion. Back in the 1970s, Michael Clapham began making fiberglass drums under the Milestone name, and anyone who owned one was lucky to have it! The quality was top-shelf, and the sound was magnificent."
+    },
+    {
+        _id: "4",
+        brand: "Masterwork",
+        name: "Cymbals Legend 13inch Rock Hi-Hats (Pair)",
+        image: productPart4,
+        price: "₱15,280.54",
+        category: "Hi-Hats",
+        description: "The Masterwork Legend series, which has an extraordinary appearance and can be explained specially with its rough surfaces, has a dark, soft and dry basic sound and stick definition guaranteed even at fast transitions."
+    },
+    {
+        _id: "5",
+        brand: "Mustafa Ibrahim",
+        name: "16inch Nazil Crash Cymbal",
+        image: productPart5,
+        price: "₱7,549.07",
+        category: "Crash",
+        description: "The Nazil formula is, next to the Dalyn plates, another formula combining different, but very similar, final treatments. From the top, this time the manufacturer proposed two strict zones separated by a traditional zone. The bottom of the plate is entirely filled with classic turning."
+    },
+    {
+        _id: "6",
+        brand: "PGB Artisan Cymbals",
+        name: "PGB 22inch Spring Ride 2670g",
+        image: productPart6,
+        price: "₱44,016.75",
+        category: "Ride",
+        description: "This series is inspired the cymbal sound on the solo album Spring by TW. Medium weight and heavily hammered, this cymbal has a dark character with a precise attack. The bell is a traditional low profile Turkish bell that has been hand hammered."
+    },
+    {
+        _id: "7",
+        brand: "Roland",
+        name: "TD-02K E-Kit",
+        image: productPart7,
+        price: "₱25,847.30",
+        category: "Full Electronic Kits",
+        description: "The TD-02 series brings you the world’s finest entry-level electronic drumming experience—at an affordable price. Backed by decades of V-Drums innovation, these compact and highly expressive kits are far greater than the sum of their parts."
+    },
+    {
+        _id: "8",
+        brand: "Vic Firth",
+        name: "Kids Kidsticks Blu Bacchette per Bambini",
+        image: productPart8,
+        price: "₱850.75",
+        category: "Drum Sticks and Mallets",
+        description: "The Vic Firth KIDS Kidsticks American Classic drumsticks are made with the same quality as full-size drumsticks and are designed to make playing easier for younger drummers aged 3 to 8 years. Bright Blue Finish."
+    },
+    {
+        _id: "9",
+        brand: "Gretsch",
+        name: "VIDEO 20/12/14/5.5x14inch USA Custom Drum Set - Peacock Satin Flame",
+        image: newArrivalPart1,
+        price: "₱252,851.78",
+        category: "Full Acoustic Kits",
+        description: "Brand new and in stock from Gretsch! This is a USA Custom Progressive Jazz outfit - 14x20inch, 8x12inch, and 14x14inch with a matching 5.5x14inch snare drum - finished in Peacock Satin Flame. We've secured all of the last satin flame wrap stock for Gretsch drums."
+    },
+    {
+        _id: "10",
+        brand: "Sabian",
+        name: "HHX Legacy Pack 15005XLN",
+        image: newArrivalPart2,
+        price: "₱71,552.10",
+        category: "Cymbal Packs",
+        description: "The HHX Legacy Pack consists of 15inch Legacy Hats 22inch Legacy Ride and a FREE 19inch Legacy Crash."
+    },
+    {
+        _id: "11",
+        brand: "Istanbul",
+        name: "Agop XIST 15inch Dry Dark Brilliant Hi Hats 679g 1036g",
+        image: newArrivalPart3,
+        price: "₱27,517.81",
+        category: "Hi-Hats",
+        description: "Serious international customers please email for an accurate quote before purchasing.  Please check with your customs office regarding any import fees or taxes before contacting us.  Please note, whenever the item ships, you will receive an email with tracking. Make sure to watch your inbox for the shipping notification."
+    },
+    {
+        _id: "12",
+        brand: "Ahead",
+        name: "Chavez S-Hoop Tenor Practice Pad Black/White",
+        image: newArrivalPart4,
+        price: "₱18,339.70",
+        category: "Practice Pads",
+        description: "A perfect practice companion for marching tenor drummers. This pad offers a real counter hoop for rimshots and built-in sound chambers for authenticity and targeting."
+    },
+    {
+        _id: "13",
+        brand: "Mapex",
+        name: "Drum Rug - Royal Viking",
+        image: newArrivalPart5,
+        price: "₱7,274.99",
+        category: "Stands",
+        description: "Tie your drumming setup together with this Mapex Drum Rug, measuring 78inches x 70inches. This high-quality, low-pile nylon rug holds up well to spikes and treads, and it also features a non-slip rubber bottom layer, offering the ultimate stability for your Mapex drum set."
+    },
+    {
+        _id: "14",
+        brand: "Ahead",
+        name: "SB3 - Grau",
+        image: newArrivalPart6,
+        price: "₱3,216.56",
+        category: "Cases and Bags",
+        description: "Specifically designed to withstand heavy use in the everyday life of a drummer, these stick bags are made from extremely durable and long-lasting material. They can hold 6 to 10 pairs of drumsticks and can be easily attached to any floor tom. Many compartments for various useful small items, gloves, or accessories are also available."
+    },
+    {
+        _id: "15",
+        brand: "Pearl",
+        name: "TH750MIPLB Twin Tom Holder",
+        image: newArrivalPart7,
+        price: "₱2,200.23",
+        category: "Mounts",
+        description: "Factory sealed Pearl TH750MIPLB Twin Tom Holder"
+    },
+    {
+        _id: "16",
+        brand: "Yamaha",
+        name: "HHS9D / Hi-Hat Stand",
+        image: newArrivalPart8,
+        price: "₱38,515.35",
+        category: "Stands",
+        description: "Like the flagship foot pedal FP9, it has a beautiful mirror finish and distinctive blue accents for an elegant appearance."
+    },
+];
