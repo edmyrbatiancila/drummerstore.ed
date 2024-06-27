@@ -174,6 +174,39 @@ export const product_list = [
     },
 ];
 
+export const features_list = [
+    {
+        feature_name: "Free Shipping",
+        feature_image: featurePart1,
+        feature_class: "free_shipping"
+    },
+    {
+        feature_name: "Good Quality",
+        feature_image: featurePart2,
+        feature_class: "good_quality"
+    },
+    {
+        feature_name: "Online Order",
+        feature_image: featurePart3,
+        feature_class: "online_order"
+    },
+    {
+        feature_name: "Hassle-Free",
+        feature_image: featurePart4,
+        feature_class: "hassle_free"
+    },
+    {
+        feature_name: "Customer Approved",
+        feature_image: featurePart5,
+        feature_class: "customer_approved"
+    },
+    {
+        feature_name: "F24/7 Support",
+        feature_image: featurePart6,
+        feature_class: "support"
+    }
+];
+
 export const product_items = [
     {
         _id: "1",

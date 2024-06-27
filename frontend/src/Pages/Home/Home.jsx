@@ -1,16 +1,18 @@
-import ExploreProduct from '../../Components/ExploreProduct/ExploreProduct';
+// import ExploreProduct from '../../Components/ExploreProduct/ExploreProduct';
+import Features from '../../Components/Features/Features';
 import Header from '../../Components/Header/Header';
 import './Home.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Home = () => {
 
-    const [category, setCategory] = useState("All");
+    // const [category, setCategory] = useState("All");
 
     return (
         <section className='home-container'>
             <Header />
-            <ExploreProduct category={category} setCategory={setCategory} />
+            {/* <ExploreProduct category={category} setCategory={setCategory} /> */}
+            <Features />
         </section>
     )
 }
