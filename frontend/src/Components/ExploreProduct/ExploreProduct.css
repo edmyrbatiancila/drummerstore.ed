@@ -1,0 +1,37 @@
+.explore-product {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-product h1 {
+    color: #000000;
+    font-weight: 800;
+}
+
+.explore-product-text {
+    max-width: 60%;
+}
+
+.explore-product-categ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 0;
+    overflow-x: scroll;
+}
+
+.explore-product-categ::-webkit-scrollbar {
+    display: none;
+}
+
+.explore-product-list-item img {
+    width: 6.5vw;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+    border: 2px solid #1A1A6D;
+}

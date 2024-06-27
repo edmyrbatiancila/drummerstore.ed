@@ -67,6 +67,17 @@ import peoplePart2 from './people2.png';
 import peoplePart3 from './people3.png';
 import peoplePart4 from './people4.png';
 
+// Category images:
+import fullAcousticKits from './full_acoustic_categ.webp';
+import pedals from './pedals_categ.jpg';
+import snare from './snare_categ.jpg';
+import hiHats from './hi_hat_categ.jpg';
+import crash from './crash_categ.webp';
+import ride from './ride_categ.jpg';
+import drumMallets from './stick_mallets_categ.jpg';
+import stands from './stand_categ.jpg';
+
+
 // Cart Page:
 import cartBanner from './cart_banner.jpg';
 
@@ -127,3 +138,38 @@ export const assets = {
     peoplePart4,
     cartBanner
 }
+
+export const product_list = [
+    {
+        product_name: "Full Acoustic Kits",
+        product_image: fullAcousticKits
+    },
+    {
+        product_name: "Pedals",
+        product_image: pedals
+    },
+    {
+        product_name: "Snare",
+        product_image: snare
+    },
+    {
+        product_name: "Hi-Hats",
+        product_image: hiHats
+    },
+    {
+        product_name: "Crash",
+        product_image: crash
+    },
+    {
+        product_name: "Ride",
+        product_image: ride
+    },
+    {
+        product_name: "Drumsticks and Mallets",
+        product_image: drumMallets
+    },
+    {
+        product_name: "Stands",
+        product_image: stands
+    },
+];
