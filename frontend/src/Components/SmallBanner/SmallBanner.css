@@ -1,0 +1,54 @@
+#sm-banner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("/small_banner1.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("/sm_banner2.jpg");
+    align-items: flex-end;
+}
+
+.banner-box h4, #banner3 .banner-box h2 {
+    color: #F5F5F5;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.banner-box h2 {
+    color: #FF8C00;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#box2 {
+    color: #314D59;
+    font-weight: 800;
+}
+
+#sm-banner .banner-box span {
+    color: #F5F5F5;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #000000;
+    border: 1px solid #FF8C00;
+}
