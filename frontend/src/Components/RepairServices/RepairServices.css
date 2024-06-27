@@ -1,0 +1,32 @@
+#repair_service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/banner.png");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#repair_service h4 {
+    color: #F5F5F5;
+    font-size: 20px;
+}
+
+#repair_service h2 {
+    color: #F5F5F5;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#repair_service h2 span{
+    color: #FF8C00;
+}
+
+#repair_service button:hover {
+    color: #1A1A6D;
+    background-color: #F5F5F5;
+}

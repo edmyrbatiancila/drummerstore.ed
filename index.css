@@ -369,6 +369,8 @@ button.transparent {
     background-color: #F5F5F5;
 }
 
+/* ------------------------------------------------------------ */
+
 #sm-banner {
     display: flex;
     justify-content: space-evenly;

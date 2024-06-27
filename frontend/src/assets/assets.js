@@ -207,7 +207,131 @@ export const features_list = [
     }
 ];
 
-export const product_items = [
+export const featured_products = [
+    {
+        product_image: productPart1,
+        product_brand: "DW",
+        product_name: "Collectors Rare Exotic African Chen Chen made in 2007",
+        product_price: "₱393,317.50"
+    },
+    {
+        product_image: productPart2,
+        product_brand: "DW",
+        product_name: "Dw5000 Ad4 (02/12)",
+        product_price: "₱17,117.94"
+    },
+    {
+        product_image: productPart3,
+        product_brand: "Milestone",
+        product_name: "Founder's Model Fiberglass Composite Snare Drum 14x6.5 10-Lug Silver Sparkle",
+        product_price: "₱48,846.37"
+    },
+    {
+        product_image: productPart4,
+        product_brand: "Masterwork",
+        product_name: "Cymbals Legend 13inches Rock Hi-Hats (Pair)",
+        product_price: "₱15,280.54"
+    },
+    {
+        product_image: productPart5,
+        product_brand: "Mustafa Ibrahim",
+        product_name: "16inches Nazil Crash Cymbal",
+        product_price: "₱7,549.07"
+    },
+    {
+        product_image: productPart6,
+        product_brand: "PGB Artisan Cymbals",
+        product_name: "PGB 22inches Spring Ride 2670g",
+        product_price: "₱44,016.75"
+    },
+    {
+        product_image: productPart7,
+        product_brand: "Roland",
+        product_name: "TD-02K E-Kit",
+        product_price: "₱25,847.30"
+    },
+    {
+        product_image: productPart8,
+        product_brand: "Vic Firth",
+        product_name: "Kids Kidsticks Blu Bacchette per Bambini",
+        product_price: "₱850.75"
+    },
+];
+
+
+export const new_arrival = [
+    {
+        product_image: newArrivalPart1,
+        product_brand: "Gretsch",
+        product_name: "VIDEO 20/12/14/5.5x14inches USA Custom Drum Set - Peacock Satin Flame",
+        product_price: "₱252,851.78"
+    },
+    {
+        product_image: newArrivalPart2,
+        product_brand: "Sabian",
+        product_name: "HHX Legacy Pack 15005XLN",
+        product_price: "₱71,552.10"
+    },
+    {
+        product_image: newArrivalPart3,
+        product_brand: "Istanbul",
+        product_name: "Agop XIST 15inches Dry Dark Brilliant Hi Hats 679g 1036g",
+        product_price: "₱27,517.81"
+    },
+    {
+        product_image: newArrivalPart4,
+        product_brand: "Ahead",
+        product_name: "Chavez S-Hoop Tenor Practice Pad Black/White",
+        product_price: "₱18,339.70"
+    },
+    {
+        product_image: newArrivalPart5,
+        product_brand: "Mapex",
+        product_name: "Drum Rug - Royal Viking",
+        product_price: "₱7,274.99"
+    },
+    {
+        product_image: newArrivalPart6,
+        product_brand: "Ahead",
+        product_name: "SB3 - Grau",
+        product_price: "₱3,216.56"
+    },
+    {
+        product_image: newArrivalPart7,
+        product_brand: "Pearl",
+        product_name: "TH750MIPLB Twin Tom Holder",
+        product_price: "₱2,200.23"
+    },
+    {
+        product_image: newArrivalPart8,
+        product_brand: "Yamaha",
+        product_name: "HHS9D / Hi-Hat Stand",
+        product_price: "₱38,515.35"
+    },
+];
+
+
+export const small_banner = [
+    {
+        _id: "1",
+        title: "Price Beats Down!",
+        banner_image: smallbannerPart1,
+        sub_title: "get our price drop deals",
+        description: "The affordable drum kits and accessories are on sale here!!",
+        button: "Learn More"
+    },
+    {
+        _id: "2",
+        title: "Drums set for Kids Promo!",
+        banner_image: smallbannerPart2,
+        sub_title: "for younger drummer deals",
+        description: "Get your kids a new toy that they can enjoy!",
+        button: "Collection"
+    }
+];
+
+
+export const shop_items = [
     {
         _id: "1",
         brand: "DW",
