@@ -8,7 +8,7 @@
   <li>Done to add Footer section</li>
   <li>Done the Landing Page</li>
   <li>Done to create the shop.html page</li>
-  <li>Done to create Blog, About, and Contact Page. Also made it responsive for all device's sizes.</li>
+  <li>Done to create Blog, About, and Contact Page. Also made it responsive for all device sizes.</li>
 </ol>
 <h2>What should I do next?</h2>
 <ol>
@@ -16,4 +16,4 @@
 </ol>
 <hr>
 <h2>Status of this Project:</h2>
-<p>Currently In progress...</p>
+<p>Currently In progress. Stopped because of training.</p>
